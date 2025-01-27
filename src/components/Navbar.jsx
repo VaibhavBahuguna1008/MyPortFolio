@@ -174,7 +174,7 @@ const Navbar = () => {
               Github Profile
             </GithubButton>
             <GithubButton
-              href={Bio.LeetCode}
+              href={Bio.leetCode}
               target="_Blank"
               style={{
                 background: theme.primary,
@@ -190,7 +190,7 @@ const Navbar = () => {
           <GithubButton href={Bio.github} target="_Blank">
             Github Profile
           </GithubButton>
-          <GithubButton href={Bio.github} target="_Blank">
+          <GithubButton href={Bio.leetCode} target="_Blank">
             LeetCode 
           </GithubButton>
         </ButtonContainer>

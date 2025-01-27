@@ -12,7 +12,7 @@ export const Bio = {
     "https://docs.google.com/document/d/1qJrn6Rt4kRKzJwTiMvWctAkHijuOGBq8y49RZ0KWZsI/edit?usp=sharing",
   linkedin: "https://www.linkedin.com/in/vaibhav-bahuguna-733a9727a/",
   insta: "https://www.instagram.com/vaibhavbahuguna1008/ ",
-  LeetCode: "https://leetcode.com/u/vaibhav423/",
+  leetCode: "https://leetcode.com/u/vaibhav423/",
 };
 
 export const skills = [
@@ -176,7 +176,58 @@ export const education = [
 
 export const projects = [
   {
-    id: 11,
+    id: 3,
+    title: "ThoughQuill Blog App",
+    date: "Dec 2024 - Jan 2025",
+    description:
+      "ThoughtQuill is a modern blogging platform that allows users to create, read, update, and delete posts. It includes features like user authentication, role-based access control, image optimization, infinite scrolling, and more. The app is built using the MERN stack, with Clerk for authentication and React Query for efficient data fetching and state management.",
+    image:
+      "https://github.com/user-attachments/assets/e989bc5d-13fb-4f44-b3bc-477dfc909f33",
+    tags: [
+      "HTML",
+      "TailwindCSS",
+      "JavaScript",
+      "React Js",
+      "MongoDb",
+      "Node Js",
+      "Express Js",
+      "React Query",
+      "Clerk",
+      "Axios",
+    ],
+    category: "web app",
+    github: "https://github.com/VaibhavBahuguna1008/ThoughtQuillBlogApp",
+
+  },
+  {
+    id: 10,
+    title: "Chatty App",
+    date: "Jan 2025",
+    description:
+      "Chatty is a modern real-time chat application that brings people together with instant real time messaging capabilities like sending images. Built with cutting-edge technologies and developer best practices.",
+    image:
+      "https://github.com/user-attachments/assets/337e2a64-5168-4db3-9415-126fdec45041",
+    tags: [
+      "HTML",
+      "TailwindCSS",
+      "Daisy UI",
+      "JavaScript",
+      "React Js",
+      "Zustand",
+      "MongoDb",
+      "Node Js",
+      "Socket.io",
+      "Express Js",
+      "React Query",
+      "Clerk",
+      "Axios",
+    ],
+    category: "web app",
+    github: "https://github.com/VaibhavBahuguna1008/ChattyApp",
+
+  },
+  {
+    id: 4,
     title: "Sundown Landing Page",
     date: "Jan 2024",
     description:
@@ -195,7 +246,7 @@ export const projects = [
 
   },
   {
-    id: 9,
+    id: 5,
     title: ".Store",
     date: "Sept 2024 - Oct 2024",
     description:
@@ -218,7 +269,7 @@ export const projects = [
 
   },
   {
-    id: 10,
+    id: 6,
     title: "Ochi Design Website",
     date: "Nov 2024",
     description:
@@ -239,7 +290,7 @@ export const projects = [
 
   },
   {
-    id: 11,
+    id: 7,
     title: "Zentry Website",
     date: "Oct 2024 - Nov 2024",
     description:
@@ -260,7 +311,7 @@ export const projects = [
 
   },
   {
-    id: 13,
+    id: 11,
     title: "Rejouice - Venture Agency Website",
     date: "Oct 2024 - Nov 2024",
     description:
